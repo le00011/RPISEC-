@@ -1,0 +1,29 @@
+struct vector {
+	void (*printFunc)(struct vector*);
+	char a;
+	short b;
+	unsigned short c;
+	int d;
+	unsigned int e;
+	long f;
+	unsigned long g;
+	long long h;
+	unsigned long long i;
+};
+
+struct vector v1; // .rodata 
+struct vector v2; // .rodata
+struct vector v3; // .rodata 
+struct vector* faves[MAX_FAVES]; // Array de ponteiros 10 * 4 = 40
+
+len struct vector == 44; 3 bytes são de alinhamentos 
+
+Com 5 ponteiros eu consigo mover de : void (*printFunc)(struct vector*) --> unsigned int e
+
+
+ANATOMIA DO EXPLOIT :
+
+
+---->  CHAMA A FUNÇÃO 1 SO PARA LIKAR A ESTRUTURA + ENDEREÇO
+
+2

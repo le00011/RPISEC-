@@ -1,0 +1,4 @@
+b * 0x080496d7
+continue
+nexti
+x/50i $esp
