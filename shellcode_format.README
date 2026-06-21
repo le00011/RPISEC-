@@ -1,21 +1,17 @@
-Shellcode Format
+  Shellcode Format
 
-Ferramenta simples desenvolvida para auxiliar na formatação de shellcodes durante desafios de exploração de binários, pesquisas em segurança ofensiva e desenvolvimento de exploits.
+  Ferramenta simples desenvolvida para auxiliar na formatação de shellcodes durante desafios de exploração de binários, pesquisas em segurança ofensiva e desenvolvimento de exploits.
 
-Descrição
+  Descrição
 
-Durante o processo de desenvolvimento de exploits, é comum precisar converter shellcodes para diferentes formatos compatíveis com linguagens, frameworks e ferramentas utilizadas nos testes. O Shellcode Format automatiza essa tarefa, permitindo transformar shellcodes de maneira rápida e prática.
+  Durante o processo de desenvolvimento de exploits, é comum precisar converter shellcodes para diferentes formatos compatíveis com linguagens, 
+  frameworks e ferramentas utilizadas nos testes. O Shellcode Format automatiza essa tarefa, permitindo transformar shellcodes de maneira rápida e prática.
+  
+  A ferramenta foi criada para reduzir o trabalho manual de edição e formatação, 
+  agilizando a criação de provas de conceito (PoCs), scripts de exploração e testes em ambientes controlados.
 
-A ferramenta foi criada para reduzir o trabalho manual de edição e formatação, agilizando a criação de provas de conceito (PoCs), scripts de exploração e testes em ambientes controlados.
-
-Objetivos
-Facilitar a manipulação de shellcodes.
-Reduzir erros causados por formatação manual.
-Acelerar o fluxo de desenvolvimento de exploits.
-Fornecer uma forma rápida de adaptar shellcodes para diferentes contextos.
-Casos de Uso
-Desafios de Binary Exploitation (PWN).
-Estudos de Exploit Development.
-Laboratórios de Segurança Ofensiva.
-Criação de Proof of Concept (PoC).
-Testes em ambientes autorizados.
+  Objetivos
+  Facilitar a manipulação de shellcodes.
+  Reduzir erros causados por formatação manual.
+  Acelerar o fluxo de desenvolvimento de exploits.
+  Fornecer uma forma rápida de adaptar shellcodes para diferentes contextos.
