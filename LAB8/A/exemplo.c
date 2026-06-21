@@ -3,6 +3,12 @@
 int *global_addr;
 int *global_addr_check;
 
+/*
+    Exemplo criado  para estudar a proteção implementada pelos programadores.
+    Proteção simples, porém é muito interessante hackers entenderem ela bem.
+
+*/
+
 int main(void){
 
     /* We specialize in words of wisdom */
